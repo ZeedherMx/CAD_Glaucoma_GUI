@@ -1,0 +1,12 @@
+name: CAD_Glaucoma
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - notebook
+  - labelme
+  - pip
+  - pip:
+      - opencv-python-headless
+      - pyqt5
